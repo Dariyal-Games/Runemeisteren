@@ -19,6 +19,12 @@ namespace Dariyal.Runes
             }
         }
 
+        /// <summary>
+        /// Check if neighbours.
+        /// </summary>
+        /// <param name="a"></param>
+        /// <param name="b"></param>
+        /// <returns></returns>
         public static bool AreVerticalOrHorizontalNeighbours(Rune a, Rune b)
         {
             return (a.Column == b.Column || a.Row == b.Row && Mathf.Abs(a.Column - b.Column) <= 1 && Mathf.Abs(a.Row - b.Row) <= 1);
