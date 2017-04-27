@@ -19,7 +19,7 @@ namespace Dariyal.Runes.Enumerations
     /// <summary>
     /// Extension methods to enable easy flag checks
     /// </summary>
-    public static class BonusTypeExtensions
+    public static class BonusTypeUtilities
     {
         /// <summary>
         /// Check if the bonus type contains Destroy Whole row or column flag.

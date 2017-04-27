@@ -10,5 +10,6 @@
         public static readonly float AnimationDuration = 0.2f;
 
         public static readonly float OpacityAnimationFrameDelay = 0.05f;
+        public static readonly int MinimumMatches = 3;
     }
 }

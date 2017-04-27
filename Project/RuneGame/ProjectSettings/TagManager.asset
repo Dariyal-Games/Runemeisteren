@@ -13,11 +13,11 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Background
+  - Board
+  - Runes
+  - Effects
+  - UI
   - 
   - 
   - 
@@ -40,4 +40,19 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 3146372573
+    locked: 0
+  - name: Board
+    uniqueID: 470302805
+    locked: 0
+  - name: Runes
+    uniqueID: 872396183
+    locked: 0
+  - name: Effects
+    uniqueID: 2732675307
+    locked: 0
+  - name: UI
+    uniqueID: 1503106069
     locked: 0
